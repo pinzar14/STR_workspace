@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ESP32 Web Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>ESP32 Web Server</h1>
+    <p>RGB Control IDF SDK</p>
+
+    <div class="control-leds">
+        <div class="led-rgb-uno">
+            <tr>
+                <td>
+                    <p><a href="/?led-r"><button class="ButtonR Button">R</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="/?led-g"><button class="ButtonG Button">G</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="/?led-b"><button class="ButtonB Button">B</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+        </div>
+        <div class="led-rgb-dos">
+            <tr>
+                <td>
+                    <p><a href="/?led2-r2"><button class="ButtonR Button">R</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="/?led2-g2"><button class="ButtonG Button">G</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="/?led2-b2"><button class="ButtonB Button">B</button></a></p>
+                </td>
+                <td>
+                    <strong> %s </strong>
+                </td>
+            </tr>
+        </div>
+    </div>
+</body>
+
+</html>
